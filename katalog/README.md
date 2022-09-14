@@ -8,7 +8,7 @@ Pertanyaan pemicu:
 •	Jelaskan kenapa menggunakan virtual environment? Apakah kita tetap dapat membuat aplikasi web berbasis Django tanpa menggunakan virtual environment? 
 •	Jelaskan bagaimana cara kamu mengimplementasikan poin 1 sampai dengan 4 di atas.
  
- ![User-1](https://user-images.githubusercontent.com/88278165/190123513-a2e95566-5a1b-44c9-a3a8-fa19971f7d6f.png)
+![image](https://user-images.githubusercontent.com/88278165/190124454-b8cc2771-8f0f-4972-a609-109a4c28f2d2.png)
 Kaitan antara urls.py, views.py, models.py, dan berkas HTML:
 Mengacu pada bagan di atas, Django adalah framework yang mengikuti struktur MVT (Model-View-Template), yang merupakan turunan dari struktur MVC (Model-View-Controller). Ketika terdapat request client di sebuah web aplikasi berbasis Django, permintaan yang masuk ke dalam sever Django akan diproses melalui urls.py terlebih dahulu yang bertujuan untuk memilih dan meneruskan proses ke views yang telah didesain oleh developer untuk memproses permintaan. Jika diperlukan akses database, views akan memanggil query ke models dan database akan mengembalikan hasil query ke views. Setelah selesai diproses, hasil proses akan dipetakan ke dalam HTML. HTML pun dikembalikan lagi ke user sebagai respons.
 Penggunaan virtual environment atau lingkungan virtual bertujuan untuk memisahkan pengaturan dan package yang diinstall pada setiap proyek Django. Dalam kata lain, virtual environment mencegah perubahan yang dilakukan pada suatu proyek dalaml memengaruhi proyek lainnya. Maka dari itu, setiap proyek Django seringkali memiliki virtual environmentnya masing-masing.
@@ -21,6 +21,7 @@ Setelah mengonfigurasi model, proses dilanjutkan dengan mengimplementasi views. 
 
 ![image](https://user-images.githubusercontent.com/88278165/190123632-cc0d0c07-cdae-4e50-80ec-81238ea31408.png)
 Untuk melakukan routing terhadap views yang telah dibuat agar dapat menampilkan file HTML melalui browser, urls.py di folder aplikasi katalog diisi sedemikian rupa yaitu mengisi app_name dan menambahkan path pada variabel urlpatterns.
+
 ![image](https://user-images.githubusercontent.com/88278165/190123651-e196f491-255d-46d9-bf24-8a40feca85b0.png)
 Dilanjutkan dengan mendaftarkan aplikasi katalog ke dalam urls.py yang berada di folder project_django pada variabel urlpatterns.
 
