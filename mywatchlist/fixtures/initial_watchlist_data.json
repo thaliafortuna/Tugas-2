@@ -1,1 +1,112 @@
-tes
+[
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 1,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 2,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 3,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 4,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 5,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 6,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 7,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 8,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 9,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 10,
+        "fields": {
+            "watched": "iPhone 12 Pro Max",
+            "title": 17999999,
+            "rating" : "Original from iBox",
+            "release_date": 3,
+            "review": 5
+        }
+    }
+]
