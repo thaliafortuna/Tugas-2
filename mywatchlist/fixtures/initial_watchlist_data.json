@@ -3,110 +3,110 @@
         "model": "mywatchlist.mywatchlist",
         "pk": 1,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Knives Out",
+            "watched": "Watched",
+            "rating" : "4.8/5",
+            "release_date": "Jun 12, 2020",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 2,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Mr. Sunshine",
+            "watched": "Watched",
+            "rating" : "5/5",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 3,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Bad and Crazy",
+            "watched": "Watched",
+            "rating" : "4/5",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 4,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Joker",
+            "watched": "Watched",
+            "rating" : "2.9/5",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 5,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Search: WWW",
+            "watched": "Watched",
+            "rating" : "4.3/5",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 6,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Itaewon Class",
+            "watched": "Watched",
+            "rating" : "3/5",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 7,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Murder on the Orient Express",
+            "watched": "Watched",
+            "rating" : "4.7/5",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 8,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Little Women",
+            "watched": "Pending",
+            "rating" : "-",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 9,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Twenty Five Twenty One",
+            "watched": "Pending",
+            "rating" : "-",
+            "release_date": "ss",
+            "review": "ss"
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 10,
         "fields": {
-            "watched": "iPhone 12 Pro Max",
-            "title": 17999999,
-            "rating" : "Original from iBox",
-            "release_date": 3,
-            "review": 5
+            "title": "Chicago Typewriter",
+            "watched": "Pending",
+            "rating" : "-",
+            "release_date": "ss",
+            "review": "ss"
         }
     }
 ]

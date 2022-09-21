@@ -7,8 +7,9 @@ from django.core import serializers
 def show_watchlist(request):
     data_watchlist = MyWatchList.objects.all()
     context = {
-        'watchlist': data_watchlist,
-        'nama': 'Thalia'
+        'watch_list': data_watchlist,
+        'nama': 'Thalia Fortuna',
+        'id': '2106751890'
     }
     return render(request, "mywatchlist.html", context)
 
