@@ -11,7 +11,7 @@ def show_watchlist(request):
         'nama': 'Thalia Fortuna',
         'id': '2106751890'
     }
-    return render(request, "mywatchlist.html", context)
+    return render(request, 'mywatchlist.html', context)
 
 def show_xml(request):
     data = MyWatchList.objects.all()
