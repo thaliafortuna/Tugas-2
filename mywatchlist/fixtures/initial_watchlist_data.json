@@ -5,9 +5,9 @@
         "fields": {
             "title": "Knives Out",
             "watched": "Watched",
-            "rating" : "4.8/5",
+            "rating" : "4.8/5.0",
             "release_date": "June 12, 2020",
-            "review": "A gripping mystery film that keeps you on your toes the whole film"
+            "review": "A gripping mystery film that keeps you on your toes the whole film. Amazing casting, directing, and overall a roller-coaster of a film."
         }
     },
     {
@@ -16,9 +16,9 @@
         "fields": {
             "title": "Mr. Sunshine",
             "watched": "Watched",
-            "rating" : "5/5",
+            "rating" : "5.0/5.0",
             "release_date": "July 7, 2018",
-            "review": "Amazing cinematography, characters, OSTs, and casting. Props to all the great actors, writers, directors, and all staffs."
+            "review": "One of the best dramas I've ever watched. Amazing storyline, cinematography, well-rounded characters, gripping OSTs, and spectacular casting. Props to all the great actors, writers, directors, and all staffs invloved in the drama."
         }
     },
     {
@@ -27,9 +27,9 @@
         "fields": {
             "title": "Bad and Crazy",
             "watched": "Watched",
-            "rating" : "4/5",
+            "rating" : "4.0/5.0",
             "release_date": "December 17, 2021",
-            "review": "A fresh action drama packed with action, humour, mystery, and suspense."
+            "review": "A fresh action drama packed with action, humour, mystery, and suspense. It just seems to get better with every episode. Unique characters and great casting."
         }
     },
     {
@@ -38,20 +38,20 @@
         "fields": {
             "title": "Joker",
             "watched": "Watched",
-            "rating" : "2.9/5",
+            "rating" : "2.9/5.0",
             "release_date": "October 2, 2019",
-            "review": "An interesting take on the origin of Joker. May not be everyone's cup of tea. "
+            "review": "An interesting take on the origin of Joker. I consider this Joker film to be quite dark, therefore may not be everyone's cup of tea. "
         }
     },
     {
         "model": "mywatchlist.mywatchlist",
         "pk": 5,
         "fields": {
-            "title": "Search: WWW",
+            "title": "Search WWW",
             "watched": "Watched",
-            "rating" : "4.3/5",
+            "rating" : "4.5/5.0",
             "release_date": "June 5, 2019",
-            "review": "A modern twist to feminism, very unique and overall a good watch."
+            "review": "A breath of fresh air. Very unique, funny yet heartbreaking, and an overall a well thought out film. A little sprinkle of girl power also gives the film a fun twist."
         }
     },
     {
@@ -60,9 +60,9 @@
         "fields": {
             "title": "Itaewon Class",
             "watched": "Watched",
-            "rating" : "3/5",
+            "rating" : "3.0/5.0",
             "release_date": "March 21, 2020",
-            "review": "A drama revolving around vengeance.Great acting and film direction. "
+            "review": "A drama revolving around vengeance. Great acting and film direction, may not be my favourite drama. "
         }
     },
     {
@@ -71,9 +71,9 @@
         "fields": {
             "title": "Murder on the Orient Express",
             "watched": "Watched",
-            "rating" : "4.6/5",
+            "rating" : "4.6/5.0",
             "release_date": "November 2, 2017",
-            "review": "A solid adaption from one of the classics by Agatha Christie. Pretty Solid."
+            "review": "An original adaption from one of the classic books by Agatha Christie. Great casting, plotting, and an overall solid movie. "
         }
     },
     {
