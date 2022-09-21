@@ -12,8 +12,8 @@
 
   <table>
     <tr>
-      <th>Title</th>
       <th>Watched</th>
+      <th>Titkle</th>
       <th>Rating</th>
       <th>Release Date</th>
       <th>Review</th>
@@ -21,8 +21,8 @@
     {% comment %} Add the data below this line {% endcomment %}
     {% for info in watch_list %}
     <tr>
-        <th>{{info.title}}</th>
         <th>{{info.watched}}</th>
+        <th>{{info.title}}</th>
         <th>{{info.rating}}</th>
         <th>{{info.release_date}}</th>
         <th>{{info.review}}</th>

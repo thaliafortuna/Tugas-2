@@ -6,8 +6,8 @@
             "title": "Knives Out",
             "watched": "Watched",
             "rating" : "4.8/5",
-            "release_date": "Jun 12, 2020",
-            "review": "ss"
+            "release_date": "June 12, 2020",
+            "review": "A gripping mystery film that keeps you on your toes the whole film"
         }
     },
     {
@@ -17,8 +17,8 @@
             "title": "Mr. Sunshine",
             "watched": "Watched",
             "rating" : "5/5",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "July 7, 2018",
+            "review": "Amazing cinematography, characters, OSTs, and casting. Props to all the great actors, writers, directors, and all staffs."
         }
     },
     {
@@ -28,8 +28,8 @@
             "title": "Bad and Crazy",
             "watched": "Watched",
             "rating" : "4/5",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "December 17, 2021",
+            "review": "A fresh action drama packed with action, humour, mystery, and suspense."
         }
     },
     {
@@ -39,8 +39,8 @@
             "title": "Joker",
             "watched": "Watched",
             "rating" : "2.9/5",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "October 2, 2019",
+            "review": "An interesting take on the origin of Joker. May not be everyone's cup of tea. "
         }
     },
     {
@@ -50,8 +50,8 @@
             "title": "Search: WWW",
             "watched": "Watched",
             "rating" : "4.3/5",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "June 5, 2019",
+            "review": "A modern twist to feminism, very unique and overall a good watch."
         }
     },
     {
@@ -61,8 +61,8 @@
             "title": "Itaewon Class",
             "watched": "Watched",
             "rating" : "3/5",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "March 21, 2020",
+            "review": "A drama revolving around vengeance.Great acting and film direction. "
         }
     },
     {
@@ -71,9 +71,9 @@
         "fields": {
             "title": "Murder on the Orient Express",
             "watched": "Watched",
-            "rating" : "4.7/5",
-            "release_date": "ss",
-            "review": "ss"
+            "rating" : "4.6/5",
+            "release_date": "November 2, 2017",
+            "review": "A solid adaption from one of the classics by Agatha Christie. Pretty Solid."
         }
     },
     {
@@ -83,8 +83,8 @@
             "title": "Little Women",
             "watched": "Pending",
             "rating" : "-",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "September 3, 2022",
+            "review": "-"
         }
     },
     {
@@ -94,8 +94,8 @@
             "title": "Twenty Five Twenty One",
             "watched": "Pending",
             "rating" : "-",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "February 12, 2022",
+            "review": "-"
         }
     },
     {
@@ -105,8 +105,8 @@
             "title": "Chicago Typewriter",
             "watched": "Pending",
             "rating" : "-",
-            "release_date": "ss",
-            "review": "ss"
+            "release_date": "April 7, 2017",
+            "review": "-"
         }
     }
 ]
