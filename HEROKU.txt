@@ -1,0 +1,2 @@
+HEROKU_API_KEY: a88fc259-d3df-4bb5-a949-73ee7d8623c0
+HEROKU_APP_NAME: aplikasidjango
