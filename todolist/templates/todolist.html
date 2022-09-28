@@ -3,7 +3,7 @@
 {% block content %}
 <h4>Welcome, {{ user }}!</h3>
 
-<p></p><button><a href="{% url 'todolist:create-task' %}">Tambah Task Baru</a></button></p>
+<p><button><a href="{% url 'todolist:create-task' %}">Tambah Task Baru</a></button></p>
 
 <h3>
 <table>
@@ -22,7 +22,6 @@
     </h3>
 </table>
 
-<h5>Sesi terakhir login: {{ last_login }}</h5>
-<button><a href="{% url 'todolist:logout' %}">Logout</a></button>
+<p><button><a href="{% url 'todolist:logout' %}">Logout</a></button></p>
 
 {% endblock content %}
