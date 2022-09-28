@@ -24,7 +24,7 @@ Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan mel
  
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-  Pertama, saya membuat dan menyalakan virtual environment, barulah saya membuat aplikasi todolist di proyek tugas Django dengan python manage.py startapp todolist. Saya memasukkan aplikasi todolist pada INSTALLED_APPS di settings.py dan mulai membuat models di folder todolist. Tidak lupa melakukan routing todolist/ di urls.py yang berada di folder project_django agar pengguna dapat mengakses [loc](http://localhost:8000/todolist)
+  Pertama, saya membuat dan menyalakan virtual environment, barulah saya membuat aplikasi todolist di proyek tugas Django dengan python manage.py startapp todolist. Saya memasukkan aplikasi todolist pada INSTALLED_APPS di settings.py dan mulai membuat models di folder todolist. Tidak lupa melakukan routing todolist/ di urls.py yang berada di folder project_django agar pengguna dapat mengakses localhost todolist
   
   ![image](https://user-images.githubusercontent.com/88278165/192799867-968339a0-214c-4efc-9ba6-854026ea5e4f.png)
 
