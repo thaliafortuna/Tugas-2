@@ -14,7 +14,7 @@ https://aplikasidjango.herokuapp.com/todolist/
  
 2. Apakah kita dapat membuat elemen <form> secara manual (tanpa menggunakan generator seperti {{ form.as_table }})? Jelaskan secara gambaran besar bagaimana cara membuat <form> secara manual.
 
-Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan melakukan manipulasi kolom dan baris secara manual. Hal ini dilakukan dengan membagi <div></div>, <label></label>, dan memanggil form secara spesifik seperti {{ form.title }}. Namun dengan adanya kemudahan form.as_table, render akan dilakukan dalam bentuk table cells dengan tag <tr>.
+Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan melakukan manipulasi kolom dan baris secara manual. Hal ini dilakukan dengan membagi <div> </div>, <label ></label>, dan memanggil form secara spesifik seperti {{ form.title }}. Namun dengan adanya kemudahan form.as_table, render akan dilakukan dalam bentuk table cells dengan tag <tr>.
   
   
 3. Jelaskan proses alur data dari submisi yang dilakukan oleh pengguna melalui HTML form, penyimpanan data pada database, hingga munculnya data yang telah disimpan pada template HTML.
