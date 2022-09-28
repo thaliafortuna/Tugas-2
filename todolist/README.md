@@ -40,7 +40,12 @@ Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan mel
 
   Lalu pada views.py, saya membuat fungsi register, login_user, logout_user, show_todolist, dan create_todolist serta mengimport segala yang dibutuhkan dalam pembuatan fungsi. Pada fungsi register, saya membuat form dan menyimpan data form untuk login nanti. Pada fungsi login, dilakukan pengecekan terhadap data yang dimasukkan dan data yang sudah tersimpan, sehingga hanya yang telah register yang bisa masuk. Pada fungsi logout_user, dilakukan logout sehingga kembali ke halaman login. Jika pengguna telah berhasil login, maka ia akan dibawa ke halaman todolist dimana fungsi show_todolist akan menampilkan semua data models yang telah disimpan. Selain tomboll logout, di halaman ini juga terdapat tombol Buat task baru yang membawa kita ke halaman create-task.html. Disini, fungsi create_todolist bertugas untuk membuat form dan membiarkan pengguna untuk memasukkan data baru. Data form tersebut saya kembalikan di variabel form. Lalu sata memastikan form telah valid dengan form.is_valid. Jika sudah, maka data akan diolah. Saya menggunakan form.cleaned_data["jenismodel"] untuk mengambil data sesuai dengan model tersebut lalu menambahkan data dari form ke models aplikasi (saya kembalikan di variabel updated), kecuali date yang menggunakan datetime.datetime.now() untuk memasukkan tanggal hari ini dalam model date. Lalu, tidak lupa melakukan save() terhadap variabel updated, hal inilah yang menyimpan  model instance ke database. Barulah dengan request.user.todolist.add(updated), bisa menambahkan todolist tersebut sesuai dengan user yang sedang login. Dengan itu, data siap ditampillkan menggunakan fungsi show_todolist dan todolist.html, todolist user ini nantinya akan ditampilkan di halaman utama todolist. 
   
-  Setelah membuat fungsi pada views, tidak lupa melakukan routing juga pada urls.py yang berada di folder todolist, saya memastikan setiap path dihubungkan dengan fungsi views yang tepat.
+  Setelah membuat fungsi pada views, tidak lupa melakukan routing juga pada urls.py yang berada di folder todolist, saya memastikan setiap path dihubungkan dengan fungsi views yang tepat. Lalu, saya melakukan git add, commit, dan push untuk melakukan deployment ke Heroku (sudah pernah memasukkan secrets). Setelah deployment, aplikasi dapat diakses di https://aplikasidjango.herokuapp.com/todolist/ , dimana saya telah membuat dua akun pengguna dan tiga dummy data masing-masingnya.
+  
+  ![image](https://user-images.githubusercontent.com/88278165/192808190-3131bb41-24d8-4478-bad2-18438ef2e4fd.png)
+
+  ![image](https://user-images.githubusercontent.com/88278165/192808247-e63db264-30ac-4624-b2f9-9ef12671d065.png)
+
   
   
   
