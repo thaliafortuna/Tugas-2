@@ -12,9 +12,9 @@ https://aplikasidjango.herokuapp.com/todolist/
   {% csrf_token %} tag di Django template dimasukkan di dalam form. CSRF token sendiri adalah value unik dan rahasia oleh server-side dari aplikasi yang dibuat untuk melindungi CSRF (Cross Site Request Forgery) resource. CSRF token mencegah serangan CSRF dengan membuat penyerang tidak bisa membuat HTTP request yang valid, karena penyerang tidak dpaat menebak value dari CSRF token user, maka mereka tidak bisa membuat request dengan parameter-parameter yang diperlukan agar aplikasi menerima request tersebut. Jika tidak terdapat potongan kode {% csrf_token %} pada elemen <form>, maka Anda meng-expose aplikasi Anda terhadap CSRF attacks. Terutama ketika aplikasi memiliki aksi-aksi relevan seperti manipulasi user-specific data dan memiliki cookie-based session handlin, attacker pun bisa meng-trigger HTTP request dan mendapat cookie dalam request, sehingga dapat memanipulasi data user. Secara kode, ketika dicoba tanpa menggunakan tag {% csrf_token %} dan di-run di localhost, site akan mengembalikan "CSRF verification fialed. Request aborted." dan menjadi Forbidden.
 
  
-2. Apakah kita dapat membuat elemen <form> secara manual (tanpa menggunakan generator seperti {{ form.as_table }})? Jelaskan secara gambaran besar bagaimana cara membuat <form> secara manual.
+2. Apakah kita dapat membuat elemen <form> secara manual (tanpa menggunakan generator seperti {{ form.as_table }})? Jelaskan secara gambaran besar bagaimana cara membuat < form > secara manual.
 
-Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan melakukan manipulasi kolom dan baris secara manual. Hal ini dilakukan dengan membagi <div>, <label >, dan memanggil form secara spesifik seperti {{ form.title }}. Namun dengan adanya kemudahan form.as_table, render akan dilakukan dalam bentuk table cells dengan tag <tr>.
+Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan melakukan manipulasi kolom dan baris secara manual. Hal ini dilakukan dengan membagi < div >, < label >, dan memanggil form secara spesifik seperti {{ form.title }}. Namun dengan adanya kemudahan form.as_table, render akan dilakukan dalam bentuk table cells dengan tag <tr>.
   
   
 3. Jelaskan proses alur data dari submisi yang dilakukan oleh pengguna melalui HTML form, penyimpanan data pada database, hingga munculnya data yang telah disimpan pada template HTML.
@@ -24,7 +24,7 @@ Bisa. Membuat form secara manual dilakukan dengan memunculkan {{ form }} dan mel
  
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-  Pertama, saya membuat dan menyalakan virtual environment, barulah saya membuat aplikasi todolist di proyek tugas Django dengan python manage.py startapp todolist. Saya memasukkan aplikasi todolist pada INSTALLED_APPS di settings.py dan mulai membuat models di folder todolist. Tidak lupa melakukan routing todolist/ di urls.py yang berada di folder project_django agar pengguna dapat mengakses [loc](http://localhost:8000/todolist)
+  Pertama, saya membuat dan menyalakan virtual environment, barulah saya membuat aplikasi todolist di proyek tugas Django dengan python manage.py startapp todolist. Saya memasukkan aplikasi todolist pada INSTALLED_APPS di settings.py dan mulai membuat models di folder todolist. Tidak lupa melakukan routing todolist/ di urls.py yang berada di folder project_django agar pengguna dapat mengakses localhost todolist
   
   ![image](https://user-images.githubusercontent.com/88278165/192799867-968339a0-214c-4efc-9ba6-854026ea5e4f.png)
 
