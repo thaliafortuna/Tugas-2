@@ -76,7 +76,7 @@ dsb.
 
 3. Jelaskan tipe-tipe CSS selector yang kamu ketahui.
 
-* -> select seluruh elemen
+(*) -> select seluruh elemen
 .class -> select seluruh elemen dalam class tersebut
 
 .class1.class2 -> select seluruh elemen dengan atribut class1 dan class2
