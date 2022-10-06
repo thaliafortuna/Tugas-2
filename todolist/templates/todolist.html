@@ -44,7 +44,7 @@
         <form class="text-center" method = "POST">
             {% csrf_token %}
                 <h1 >Welcome, {{ user }}!</h1>
-                <p><button class="btn btn-outline-dark btn-warning btn-sm px-3"><a href="{% url 'todolist:create-task' %}">Tambah Task Baru</a></button></p>
+                <p><button class="btn btn-outline-light btn-warning btn-sm px-3"><a href="{% url 'todolist:create-task' %}">Tambah Task Baru</a></button></p>
                 <h5>Here are your to do lists:</h5>
                 <div class = "card-deck">
                     {% for task in user.todolist.all %} 
@@ -64,7 +64,7 @@
                     {% endfor %}
                 </div>
         </form>
-        <p><button class="btn btn-outline-dark btn-warning btn-sm px-3"><a href="{% url 'todolist:logout' %}">Logout</a></button></p>
+        <p><button class="btn btn-outline-light btn-warning btn-sm px-3"><a href="{% url 'todolist:logout' %}">Logout</a></button></p>
     </div>
 </body>
 </html>
