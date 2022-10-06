@@ -42,25 +42,27 @@ Kekurangan:
 
 2. Jelaskan tag HTML5 yang kamu ketahui.
 
-<h1> hingga <h6> -> membuat heading
+(abaikan titik)
 
-<div> -> membuat sebuah divisi tersendiri
+<.h1> hingga <.h6> -> membuat heading
 
-<meta> -> membuat database mengenai dokumen HTML
+<.div> -> membuat sebuah divisi tersendiri
 
-<form> -> membuat form HTML
+<.meta> -> membuat database mengenai dokumen HTML
 
-<input> -> membuat sebuah kontrol input
+<.form> -> membuat form HTML
 
-<button> -> membuat sebuah tombol yang dapat diklik
+<.input> -> membuat sebuah kontrol input
 
-<img> -> membuat gambar
+<.button> -> membuat sebuah tombol yang dapat diklik
 
-<p> -> membuat paragraf
+<.img> -> membuat gambar
 
-<br> -> memasukkan suatu baris putus
+<.p> -> membuat paragraf
 
-<b> -> membuat huruf bercetak tebal
+<.br> -> memasukkan suatu baris putus
+
+<.b> -> membuat huruf bercetak tebal
 
 dsb.
 
