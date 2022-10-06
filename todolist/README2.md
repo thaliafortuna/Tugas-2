@@ -43,15 +43,25 @@ Kekurangan:
 2. Jelaskan tag HTML5 yang kamu ketahui.
 
 <h1> hingga <h6> -> membuat heading
+
 <div> -> membuat sebuah divisi tersendiri
+
 <meta> -> membuat database mengenai dokumen HTML
+
 <form> -> membuat form HTML
+
 <input> -> membuat sebuah kontrol input
+
 <button> -> membuat sebuah tombol yang dapat diklik
+
 <img> -> membuat gambar
+
 <p> -> membuat paragraf
+
 <br> -> memasukkan suatu baris putus
+
 <b> -> membuat huruf bercetak tebal
+
 dsb.
 
 
@@ -59,14 +69,39 @@ dsb.
 
 * -> select seluruh elemen
 .class -> select seluruh elemen dalam class tersebut
+
 .class1.class2 -> select seluruh elemen dengan atribut class1 dan class2
+
 .element -> select seluruh element yang ditetapkan, contoh seluruh elemen <p>
 .element.class -> select seluruh elemen yang ditetapkan, dengan class yang di ditetapkan, contoh p.intro maka seluruh elemen <p> dengan class intro
+
 #id -> select elemen dengan id yang dipilih
+
 :valid -> select seluruh elemen input dengan value valid
+
 :root -> select root elemen dari dokumen
+
 :read-only -> select elemen input dengan atribut "readonly"
+
 :read-write -> select elemen input yang tidak diberi atribut "readonly"
+
 ::visited -> select seluruh link yang dikunjungi
 
+
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
+Menambahkan potongan kode berikut untuk utilisasi bootstrap.
+
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+Anda bisa menambahkan style CSS secara inline, internal, maupun external. Saya menggunakan inline dan internal CSS. Saya membuat divisi (div) yang diperlukan dan memasukkan class. Hal ini dilakukan untuk mempermudah. Untuk halaman logim, register, dan create-task, saya menambahkan container dan centerized penampilan agar semakin rapi, juga memasukkan background color, menetapkan margin dan padding, dll. Hal ini dilakukan di block style. Selain itu untuk kustomisasi pada inline CSS, dilakukan hal yang sama namun terletak pada atribut yang lebih spesifik.
+
+Setelah memodifikasi ketiga halaman tersebut, saya memodifikasi halaman utama todo lists dengan cards.
