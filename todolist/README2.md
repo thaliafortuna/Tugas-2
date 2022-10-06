@@ -106,4 +106,16 @@ Menambahkan potongan kode berikut untuk utilisasi bootstrap.
 
 Anda bisa menambahkan style CSS secara inline, internal, maupun external. Saya menggunakan inline dan internal CSS. Saya membuat divisi (div) yang diperlukan dan memasukkan class. Hal ini dilakukan untuk mempermudah. Untuk halaman logim, register, dan create-task, saya menambahkan container dan centerized penampilan agar semakin rapi, juga memasukkan background color, menetapkan margin dan padding, dll. Hal ini dilakukan di block style. Selain itu untuk kustomisasi pada inline CSS, dilakukan hal yang sama namun terletak pada atribut yang lebih spesifik.
 
-Setelah memodifikasi ketiga halaman tersebut, saya memodifikasi halaman utama todo lists dengan cards.
+Setelah memodifikasi ketiga halaman tersebut, saya memodifikasi halaman utama todo lists dengan cards. Saya mengubah table menjadi form, lalu menggunakan class card, card-group, dan card-deck. Card group berada di dalam iterasi sehingga setiap task todolist akan dimasukkan dalam sebuah card. Dilanjutkan dengan kustomisasi warna, header, button, dll.
+
+Untuk membuat halaman login, register, create-task, dan todolist menjadi positif, saya menggunakan Media Query. Saya menambahkan media query di internal CSS tepatnya block style. Potongan kode yang saya tambahkan:
+ 
+@media (max-width: 600px) {
+            .container {
+              font-size: 20px;
+              padding: 5px;
+            }
+        }
+
+Kode ini memastikan bahwa di layar dengan 600px atau kurang, akan dilakukan modifikasi font size serta padding agar menyesuaikan dengan layar.
+      
