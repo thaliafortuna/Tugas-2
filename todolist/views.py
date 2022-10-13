@@ -10,6 +10,8 @@ from django.contrib import messages
 from django.shortcuts import render
 from todolist.models import ListToDo
 from todolist.forms import TaskForm
+from django.http import HttpResponse
+from django.core import serializers
 
 # Create your views here.
 def register(request):
@@ -55,6 +57,18 @@ def show_todolist(request):
 
     return render(request, "todolist.html", context)
 
+@login_required(login_url='/wishlist/login/')
+def show_todolist_ajax(request):
+    context = {
+    }
+    return render(request, "todolist_ajax.html", context)
+
+
+def show_json(request):
+    user = request.user
+    data_todo_list = ListToDo.objects.filter(user=user)
+    return HttpResponse(serializers.serialize("json", data_todo_list), content_type="application/json")
+
 def create_todolist(request):
     form = TaskForm()
     if request.method == "POST":
@@ -71,4 +85,23 @@ def create_todolist(request):
         'form': form,
     }
     return render(request, "create-task.html", context)
+
+def add_todolist_ajax(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        description = request.POST.get('description')
+
+        new_task = ListToDo.objects.create(
+            title = title,
+            description = description,
+            date = datetime.datetime.now(),
+            user = request.user,
+            )
+
+        new_task.save()
+        request.user.todolist.add(new_task)
+        return HttpResponse("")
+    return render(request, 'create-task.html')
+
+
 
