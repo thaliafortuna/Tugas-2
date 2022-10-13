@@ -11,7 +11,7 @@
       counter = 0
         function updateTable(){
         var tempCounter = counter;
-        // AJAX GET, melakukan append data
+        // AJAX GET melakukan append data
         $.get("{% url 'todolist:json' %}", function(data) {
             for(var i = counter; i < data.length; i++){
                 var tr = document.createElement("tr"); //row
@@ -38,13 +38,14 @@
           });
         }
 
+        // Melakukan refresh ketika button diklik
         $(document).ready(function(){
           $("#get").click(function(){
             updateTable();
           });
         })
   
-        
+        // Melakukan GET POST ketika submit form
         $(document).on('submit', '#form_task', function(e){
           e.preventDefault();
           $.ajax({
