@@ -1,3 +1,9 @@
+Thalia Fortuna
+2106751890
+PBP A
+
+https://aplikasidjango.herokuapp.com/todolist/
+
 1. Jelaskan perbedaan antara asynchronous programming dengan synchronous programming.
 
 Asynchronous programming adalah  membuat proses jalannya program bisa dilakukan secara bersamaan tanpa harus menunggu proses antrian. Asynchronous programming merupakan sebuah pendekatan pemrograman yang tidak terikat pada input output. Asynchronous programming melakukan pekerjaannya tanpa harus terikat dengan proses lain atau secara independent. 
