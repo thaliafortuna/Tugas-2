@@ -12,7 +12,7 @@ Penerapan Event-Driven Programming di tugas kali ini dapat dilihat dari melakuka
 
 3. Jelaskan penerapan asynchronous programming pada AJAX.
 
-Penerapan asynchronous programming pada AJAX terletak pada AJAX get yang menerima data dan AJAX POST yang mengirimkan data. Penggunaan AJAX membuat proses jalannya program bisa dilakukan secara bersamaan karena proses GET dan POST telah dibedakan.
+Penerapan asynchronous programming pada AJAX terletak pada AJAX get yang menerima data dan AJAX POST yang mengirimkan data. Penggunaan AJAX membuat proses jalannya program bisa dilakukan secara bersamaan karena proses GET dan POST telah dibedakan. Maka, GET tidak perlu menunggu POST karena keduanya terpisahkan, oleh karena itu refresh pun dapat dilakukan secara asinkronus tanpa reload satu page. Di konteks saya, hanya perlu menekan button, tidak usah reload page.
 
 4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
