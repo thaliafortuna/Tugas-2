@@ -1,3 +1,12 @@
+Nama: Thalia Fortuna
+
+Kelas: A
+
+NPM: 2106751890
+
+https://aplikasidjango.herokuapp.com/todolist/login/
+
+
 1. Apa perbedaan dari Inline, Internal, dan External CSS? Apa saja kelebihan dan kekurangan dari masing-masing style?
 
 Inline CSS adalah kode CSS yang ditulis langsung pada atribut elemen HTML. Setiap elemen HTML memiliki atribut style, maka di atribut tersebutlah inline CSS ditulis.
@@ -69,7 +78,7 @@ dsb.
 
 3. Jelaskan tipe-tipe CSS selector yang kamu ketahui.
 
-* -> select seluruh elemen
+(*) -> select seluruh elemen
 .class -> select seluruh elemen dalam class tersebut
 
 .class1.class2 -> select seluruh elemen dengan atribut class1 dan class2
