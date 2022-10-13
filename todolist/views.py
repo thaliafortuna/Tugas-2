@@ -97,9 +97,7 @@ def add_todolist_ajax(request):
             date = datetime.datetime.now(),
             user = request.user,
             )
-
         new_task.save()
-        request.user.todolist.add(new_task)
         return HttpResponse("")
     return render(request, 'create-task.html')
 
